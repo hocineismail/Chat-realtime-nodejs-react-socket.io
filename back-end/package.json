@@ -1,0 +1,14 @@
+{
+  "name": "taks-nodejs-socket",
+  "version": "1.0.0",
+  "description": "Create simple chat realtime using socket, express as a backend and react as front end",
+  "main": "index.js",
+  "author": "Ismail Hocine",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

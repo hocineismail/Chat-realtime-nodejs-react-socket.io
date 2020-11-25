@@ -1,0 +1,59 @@
+.grid-5fr-1fr {
+    display: grid;
+    grid-template-columns: auto 150px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.section-input {
+    
+}
+.card-chat {
+    background-color: rgb(221, 221, 221);
+}
+
+.section-chat-message {
+    height: 80vh;
+    overflow: auto;
+}
+
+.button-send {
+    width: 100%;
+}
+
+.card-message {
+    display: grid;
+    grid-template-columns: 80px auto;
+    position: relative;
+    margin: 10px 0px;
+}
+
+.avatar  {
+    padding: 10px;
+}
+
+.text-received  {
+    padding: 10px;
+    color: black;
+    background-color: rgb(200, 200, 200);
+    border-radius: 20px;
+}
+
+.text-sent  {
+    padding: 10px;
+    background-color: rgb(167, 192, 250);
+    border-radius: 20px;
+}
+
+.button-delete {
+    right: 5px;
+    top: 5px;
+    border-radius: 100%;
+    background-color: rgb(218, 46, 46);
+    color: white;
+    position: absolute;
+}
+
+ 
